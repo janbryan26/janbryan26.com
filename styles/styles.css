@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+
+body {
+  background-color: rgb(46, 46, 46);
+
+  margin: 0;
+  padding: 0;
+}
+
+
+body::-webkit-scrollbar {
+  width: 1em;
+  height: 40px;
+}
+ 
+body::-webkit-scrollbar-track {
+  background-color: rgb(46, 46, 46);
+}
+ 
+
+
+body::-webkit-scrollbar-thumb {
+    color: transparent;
+    border-right: none;
+    border-left: none;
+}
+
+
+.main {
+  width: 450px;
+  background: rgba(19, 19, 19, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: #fff;
+  font-family: "Century Gothic", sans-serif;
+  border-radius: 18px;
+  margin-bottom: 40px;
+}
+.box-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: 594x;
+}
+
+.pfp-base {
+  margin-top: 50px;
+}
+.main h1 {
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  font-family: 'Noto Sans Mono', monospace;
+  letter-spacing: 5px;
+}
+.main h5 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.main p {
+  text-align: justify;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.main li {
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+  margin: 1.4em;
+}
+.main li a {
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+
+.carbon-svg {
+  border-bottom: 2px solid rgb(50, 50, 50);
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.main li a:hover {
+  color: #999999;
+}
+
+svg {
+  margin-right: 99%;
+  
+}
+
+
+
+
+
+
+
+
